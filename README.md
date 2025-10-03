@@ -11,7 +11,7 @@ Datasets will be updated periodically as additional data is generated.
 CC BY-NC 4.0
 
 ## Documentation
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-data)
+[Github repo link](https://github.com/SowpatiLab/ont-basemod-data/documentation.md)
 
 ## Managed by
 CSIR-Centre for Cellular and Molecular Biology (https://www.ccmb.res.in/)
@@ -25,7 +25,7 @@ Please cite Kulkarni et al. Comprehensive benchmarking of tools for nanopore-bas
 ## Usage Examples
 
 ### Tutorial
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-data)
+[Github repo link](https://github.com/SowpatiLab/ont-basemod-data/tutorial.md)
 
 ## Publications
 Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation by Kulkarni et al.
