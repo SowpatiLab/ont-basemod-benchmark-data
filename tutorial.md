@@ -57,14 +57,14 @@ The following command requires you to have AWS CLI installed.
    ```
     aws s3 cp \
         --no-sign-request \
-        s3://ont-basemod-data/Raw/pod5/Bacteria/Ecoli/Ecoli_WT.pod5 \
+        s3://ont-basemod-benchmark-data/Raw/pod5/Bacteria/Ecoli/Ecoli_WT.pod5 \
         ./ONT_meth_tutorial 
    ```
 4. Download genome fasta file 
     ```
     aws s3 cp \
         --no-sign-request \
-        s3://ont-basemod-data/Raw/pod5/Bacteria/Ecoli/Ecoli_WT.pod5 \
+        s3://ont-basemod-benchmark-data/Raw/pod5/Bacteria/Ecoli/Ecoli_WT.pod5 \
         ./ONT_meth_tutorial
     ```
 

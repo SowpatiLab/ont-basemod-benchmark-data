@@ -11,13 +11,13 @@ Datasets will be updated periodically as additional data is generated.
 MIT
 
 ## Documentation
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-data/documentation.md)
+[Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data/documentation.md)
 
 ## Managed by
 CSIR-Centre for Cellular and Molecular Biology (https://www.ccmb.res.in/)
 
 ## Conrtact
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-data)
+[Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data)
 
 ## How to Cite
 Please cite Kulkarni et al. Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation. bioRxiv (2024). doi: https://doi.org/10.1101/2024.11.09.622763 when referencing the ONT methylation benchmarking datasets in publications.
@@ -25,7 +25,7 @@ Please cite Kulkarni et al. Comprehensive benchmarking of tools for nanopore-bas
 ## Usage Examples
 
 ### Tutorial
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-data/tutorial.md)
+[Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data/tutorial.md)
 
 ## Publications
 Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation by Kulkarni et al.
