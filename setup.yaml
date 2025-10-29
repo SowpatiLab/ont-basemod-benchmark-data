@@ -17,7 +17,7 @@ Tags:
   - pod5
   - bam
   - bed
-License: "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
+License: "MIT"
 Citation: "Please cite Kulkarni et al. Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation. bioRxiv (2024). doi: https://doi.org/10.1101/2024.11.09.622763 when referencing the ONT methylation benchmarking datasets in publications."
 Resources:
   - Description: ONT Methylation Benchmarking Datasets
