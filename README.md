@@ -8,7 +8,7 @@ In addition, the dataset includes EMSeq data for E. coli, plant, and mouse sampl
 Datasets will be updated periodically as additional data is generated.
 
 ## License
-MIT
+[MIT License](https://opensource.org/license/mit)
 
 ## Documentation
 [Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data/documentation.md)
