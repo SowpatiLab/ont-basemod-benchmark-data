@@ -55,17 +55,11 @@ The following command requires you to have AWS CLI installed.
     ```
 3. Download sample POD5 file 
    ```
-    aws s3 cp \
-        --no-sign-request \
-        s3://ont-basemod-benchmark-data/Raw/pod5/Bacteria/Ecoli/Ecoli_WT.pod5 \
-        ./ONT_meth_tutorial 
+   aws s3 sync --no-sign-request s3://ont-basemod-benchmark-data/Raw/pod5/bacteria/Ecoli_WT_5kHz/ ./ONT_meth_tutorial/pod5/Ecoli_WT_5kHz/
    ```
 4. Download genome fasta file 
     ```
-    aws s3 cp \
-        --no-sign-request \
-        s3://ont-basemod-benchmark-data/Raw/pod5/Bacteria/Ecoli/Ecoli_WT.pod5 \
-        ./ONT_meth_tutorial
+    aws s3 cp --no-sign-request s3://ont-basemod-benchmark-data/Analysis/Reference/ecoli.fa.gz ./ONT_meth_tutorial
     ```
 
 ### Running methylation calling pipeline using dorado
