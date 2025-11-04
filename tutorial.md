@@ -4,12 +4,11 @@ In this tutorial, we will perform methylation calling using dorado on the ONT me
 ## Content
 - [Installation](#installation)
 - [Data Access and preparation](#data-access)
-- [Running methylation calling]()
+- [Running methylation calling](#running-dorado)
 
 ## Installation
 First, we have to install dorado basecaller which we will use for methylation basecalling using dorado models.
 We can install dorado using following command on linux terminal : 
-
 
 ### Dorado
 
@@ -20,12 +19,10 @@ tar -xvzf dorado-1.1.1-linux-x64.tar.gz
 # download dorado models
 
 # basecalling model : 
-dorado-1.1.1-linux-x64/bin/dorado download \
-    --model dna_r10.4.1_e8.2_400bps_hac@v5.0.0
+dorado-1.1.1-linux-x64/bin/dorado download --model dna_r10.4.1_e8.2_400bps_sup@v5.0.0
 
 # modification model
-dorado-1.1.1-linux-x64/bin/dorado download  \
-    --model dna_r10.4.1_e8.2_400bps_hac@v5.0.0_5mC_5hmC@v3
+dorado-1.1.1-linux-x64/bin/dorado download --model dna_r10.4.1_e8.2_400bps_sup@v5.0.0_5mC_5hmC@v3
 
 ```
 If you want a more recent version of dorado/dorado models, you may refer to the Dorado Github repository.
@@ -46,7 +43,7 @@ We will need to download following required data:
 - Reference genome file (FASTA file)
 
 Below are the steps to download the required data : 
-The following command requires you to have AWS CLI installed.
+The following command requires you to have [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) installed.
 
 1. Create a directory to store the data
    
@@ -67,10 +64,10 @@ The following command requires you to have AWS CLI installed.
 #### Running Dorado
 ```bash
 dorado-1.1.1-linux-x64/bin/dorado \
-    basecaller dna_r10.4.1_e8.2_400bps_hac@v5.0.0 \
-    ONT_meth_tutorial/Ecoli_WT.pod5 \
-    --modified-bases-models  dna_r10.4.1_e8.2_400bps_hac@v5.0.0_5mC_5hmC@v3 --min-qscore 10 \
-    --reference  ONT_meth_tutorial/ecoli.fa.gz -r > Ecoli_WT_hac_5mC_5hmC_v5r3.bam
+    basecaller dna_r10.4.1_e8.2_400bps_sup@v5.0.0 \
+    ./ONT_meth_tutorial/pod5/Ecoli_WT_5kHz \
+    --modified-bases-models dna_r10.4.1_e8.2_400bps_sup@v5.0.0_5mC_5hmC@v3 --min-qscore 10 \
+    --reference ONT_meth_tutorial/ecoli.fa.gz -r > Ecoli_WT_hac_5mC_5hmC_v5r3.bam
 
 ```
 
@@ -96,4 +93,4 @@ Modkit pileup command returns a bedMethyl file containing genome coordinates for
 
 ![bedtools pileup output example](./assets/modkit_pileup_example.png)
 
-Please refer to the modkit documentation (https://github.com/nanoporetech/modkit) for more information regarding the output file.
+Please refer to the [modkit documentation](https://github.com/nanoporetech/modkit) for more information regarding the output file.
