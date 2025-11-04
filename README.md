@@ -7,25 +7,27 @@ In addition, the dataset includes EMSeq data for E. coli, plant, and mouse sampl
 ## Update Frequency
 Datasets will be updated periodically as additional data is generated.
 
+## Managed by
+CSIR-Centre for Cellular and Molecular Biology (https://www.ccmb.res.in/)
+
 ## License
 [MIT License](https://opensource.org/license/mit)
 
 ## Documentation
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/documentation.md)
-
-## Managed by
-CSIR-Centre for Cellular and Molecular Biology (https://www.ccmb.res.in/)
-
-## Conrtact
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data)
-
-## How to Cite
-Please cite Kulkarni et al. Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation. bioRxiv (2024). doi: https://doi.org/10.1101/2024.11.09.622763 when referencing the ONT methylation benchmarking datasets in publications.
+For detailed documentation about the datasets, see the [documentaion.md](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/documentation.md)
 
 ## Usage Examples
 
 ### Tutorial
-[Github repo link](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/tutorial.md)
+For detailed tutorial on **Methylation calling using ONT methylation benchmarking dataset** , see the [tutorial.md](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/tutorial.md)
 
 ## Publications
-Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation by Kulkarni et al.
+[Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation](https://www.biorxiv.org/content/10.1101/2024.11.09.622763v1) by Kulkarni et al.
+
+## How to Cite
+Please cite Kulkarni et al. Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation. bioRxiv (2024). doi: https://doi.org/10.1101/2024.11.09.622763 when referencing the ONT methylation benchmarking datasets in publications.
+
+## Contact
+
+Onkar Kulkarni - <onkar@ccmb.res.in> \
+Divya Tej Sowpati - <tej@ccmb.res.in>
