@@ -18,8 +18,10 @@ For detailed documentation about the datasets, see the [documentaion.md](https:/
 
 ## Usage Examples
 
-### Tutorial
-For detailed tutorial on **Methylation calling using ONT methylation benchmarking dataset** , see the [tutorial.md](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/tutorial.md)
+### Tutorials
+1. For detailed tutorial on **Methylation calling using ONT methylation benchmarking dataset** , see the [tutorial.md](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/tutorial.md)
+
+2. For detailed tutorial on **Running Benchmarking Pipeline (Nextflow/Snakemake) on an Example Dataset using AWS** , see the [tutorial_workflow.md](https://github.com/SowpatiLab/ont-basemod-benchmark-data/blob/main/tutorial_workflow.md)
 
 ## Publications
 [Comprehensive benchmarking of tools for nanopore-based detection of DNA methylation](https://www.biorxiv.org/content/10.1101/2024.11.09.622763v1) by Kulkarni et al.
