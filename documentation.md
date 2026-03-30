@@ -72,7 +72,7 @@ You can access the following data through the AWS Open Data Registry:
         </tr>
         <tr>
            <td rowspan="8">Bacteria</td>
-           <td rowspan="3"><i>Escherichia coli str. K-12 substr. MG1655</i></td>
+           <td rowspan="4"><i>Escherichia coli str. K-12 substr. MG1655</i></td>
            <td>Native (WT)</td>
            <td>R10.4.1</td>
            <td>5kHz</td>
@@ -86,6 +86,12 @@ You can access the following data through the AWS Open Data Registry:
         </tr>
         <tr>
            <td>Double Mutant M.SssI Treated (DM_MSssI)</td>
+           <td>R10.4.1</td>
+           <td>5kHz</td>
+           <td>v5.0.0 sup</td>
+        </tr>
+       <tr>
+           <td>Whole Genome Amplified (WGA)</td>
            <td>R10.4.1</td>
            <td>5kHz</td>
            <td>v5.0.0 sup</td>
@@ -231,6 +237,10 @@ You can access the following data through the AWS Open Data Registry:
 - Example dataset for testing methylation analysis pipelines
 
 ## Release Note & Updates
+<b>Version Number</b>: V0.2<br/>
+<b>Date</b>: 2026-03-28
+Added E.coli WGA data
+<br>
 <b>Version Number</b>: V0.1<br/>
 <b>Date</b>: 2025-09-30
 Initial release of the methylation benchmarking data on AWS. Includes raw nanopore files and methylation analysis files
